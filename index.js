@@ -12,6 +12,7 @@ function nowServing(katzDeliLine) {
   } else {
     firstperson = katzDeliLine[0];
     katzDeliLine.shift();
+<<<<<<< HEAD
     return `Currently serving ${firstperson}.`;
   }
 }
@@ -27,4 +28,12 @@ function currentLine(katzDeliLine){
     return str ;
   }
  
+=======
+  }
+  return firstperson;
+}
+
+function currentLine(katzDeliLine){
+  
+>>>>>>> 82a6f671550a5d6c0f748b31fa5ba864dacf89c4
 }
